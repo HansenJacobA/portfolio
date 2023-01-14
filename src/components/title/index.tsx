@@ -21,7 +21,7 @@ export default function Title() {
           color="#F7FAFC"
           fontWeight="thin"
         >
-          App Name
+          Jacob Hansen
         </Heading>
       </Link>
     </NextLink>
