@@ -13,7 +13,7 @@ export default function Home() {
     >
       <Template />
       <Text fontSize={28} fontStyle="italic" fontWeight="thin">
-        {`"From the imagination to reality."`}
+        {`"From the imagination into reality."`}
       </Text>
       <Text>
         Hello, my name is Jacob Hansen and I am a published photographer, United
