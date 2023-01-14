@@ -1,69 +1,15 @@
-## About
+# About
 
-This is a Typescript, NextJS, and Chakra UI template to easily and quickly create a PWA. Follow the guidelines and consider the notes below for use.
+"From the imagination to reality."
 
-## Set Up
+Hello, my name is Jacob Hansen and I am a published photographer, United States Army Veteran, and a Software Engineer. I have a passion for transferring intangible ideas into physical reality.
 
-1. Create a new repository on Github and select this repository as a template or fork and clone this repository or copy the files into your application.
+Beginning with photography for example, I would imagine the types of photos I would want to capture in various settings, such as taking an image of the Milky Way behind a rocky mountain top, then try different methods to make it happen. In this example I would travel around in Google Maps to find a nearby rocky mountain, find the date that the Milky Way would be aligned with the mountain using Photopills, then try to take the image with researched camera settings. After succeeding, I found this to be a never ending and satisfying cycle applicable to not only photography, but software engineering as well.
 
-2. Keep or create your own package.json and follow the promps with the command below
+In life, I have wanted the liberty of not confining myself to applications others have built, but to also create and use my own that would be helpful to me personally. With software engineering, from idea to the physical, I have been able to create my own, as well as others', applications now that are used on any device type, mobile through desktop, that are entirely custom.
 
-```
-npm init
-```
+From what started out as personal curiosity, I have found an ever continuos passion for transferring ideas into the physical world. If there has ever been an idea for something that you wanted available to you, specifically software, let's turn your idea into reality together. Contact me through your preferred method of [LinkedIn](https://www.linkedin.com/in/jacob-andrew-hansen/) or [Email](mailto:jacob.a.hansen2@gmail.com). Feel free to checkout some publically available applications I have created [here](https://github.com/HansenJacobA).
 
-3. Install all the dependencies from the original package.json or copy and paste the dependencies and scripts into your new file and install dependencies with
+## Current Status
 
-```
-npm i
-```
-
-#### Notes
-
-- As of this writing, there is a bug with the most current version of Chakra UI, therefore the '^' have been removed from the chakra-ui related dependencies within the package.json.
-
-## Development
-
-1. Begin development by running
-
-```
-npm run dev
-```
-
-2. Open the Chakra UI [website](https://chakra-ui.com/docs/components), view the list of components, plug and play, or create your own components and quickly build your application visually.
-
-3. Use local storage to store and retrieve user data using the functions within the Utilities folder. (Suggest starting with the SeedUp function to ensure application foundation data is available, such as user profile template data).
-
-4. Modify the template navigation link names and urls array within utilities/navBar and create the page routes within the Pages folder.
-
-## Service Worker
-
-1. Replace the name, short_name, and description within public/app.webmanifest. For more personalization, replace the theme_color and background_color.
-
-2. Create your own icon image then upload and download the maskable version and sizes using this PWA [website](https://maskable.app/)
-
-3. Replace the template icons within public/icons with your icon images and use the same names.
-
-4. Replace the public/favicon.ico template icon with your own icon image and use the same file name.
-
-#### Notes
-
-- During development, the service worker invocation script is commented out on line 10 within src/pages/\_app.tsx. Be sure to uncomment this line for Deployments.
-
-## Deployment
-
-1. Go to the Vercel [website](https://vercel.com) and create an account or login.
-
-2. Allow Vercel access to your Github repository projects.
-
-3. Upload your application repository to Vercel and deploy your application.
-
-4. If you have an Apple mobile device, open the deployment link with Safari, add the application to your homepage and enjoy the PWA available for online and offline use. All other devices can download the application using Google Chrome and enjoy the PWA online and offline as well.
-
-#### Notes
-
-- Sometimes after downloading the application to your devices, the application may 'bug' out. Simply click the navigation buttons or refresh the page and the application service worker should render the pages normally.
-
-#### Acknowledgements
-
-- The service worker logic of this PWA was inspired by [Frontend Masters](https://frontendmasters.com/), the [course](https://frontendmasters.com/courses/pwas/) 'Build Progressive Web Apps (PWAs) from Scratch' by Maximiliano Firtman.
+In light of ChatGPT, I am currently discovering more about AI and how to make use of it personally and for others.
