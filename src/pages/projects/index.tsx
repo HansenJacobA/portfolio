@@ -1,4 +1,5 @@
 import { Flex } from "@chakra-ui/react";
+import ProjectList from "../../components/projectList";
 import Template from "../../components/template";
 
 export default function Projects() {
@@ -12,7 +13,7 @@ export default function Projects() {
       w={300}
     >
       <Template />
-      List of projects.
+      <ProjectList />
     </Flex>
   );
 }
